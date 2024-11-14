@@ -1,16 +1,72 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.36986695 0.60154758 0.27525740 0.02427719 0.31227185 0.62421609\n [7] 0.57605174 0.85226990 0.73418739 0.67103855"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jose Toledo",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 3\n\n[1] 4"
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\nDOWNLOAD CV"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jose Toledo",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Jose Toledo",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "projects/03-project.html",
+    "href": "projects/03-project.html",
+    "title": "Project 3",
+    "section": "",
+    "text": "Some comlpicated statistics project\n\nrnorm(100) |&gt; hist()\n\n\n\n\n\n\n\nrnorm(100) |&gt; mean()\n\n[1] 0.08953036"
+  },
+  {
+    "objectID": "projects/02-project.html",
+    "href": "projects/02-project.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "Some comlpicated statistics project\n\nrnorm(100) |&gt; hist()"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "relavent courses taken\n\nReal Analysis\nStatistics 101"
+  },
+  {
+    "objectID": "projects/01-project.html",
+    "href": "projects/01-project.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "Some comlpicated statistics project\n\nrunif(10)\n\n [1] 0.9515832 0.4647522 0.6084883 0.9527748 0.3640739 0.7295238 0.5207503\n [8] 0.8051199 0.3073724 0.2318836"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Jose Toledo",
+    "section": "",
+    "text": "Here is my project 1"
+  },
+  {
+    "objectID": "projects.html#project-1",
+    "href": "projects.html#project-1",
+    "title": "Jose Toledo",
+    "section": "",
+    "text": "Here is my project 1"
+  },
+  {
+    "objectID": "projects.html#project-2",
+    "href": "projects.html#project-2",
+    "title": "Jose Toledo",
+    "section": "Project 2",
+    "text": "Project 2\nHere is my project 2"
   }
 ]

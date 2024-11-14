@@ -1,0 +1,17 @@
+{
+  "hash": "c8831b702cdd75b7bc64a50687de67ca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Project 3\n---\n\n\n\n\nSome comlpicated statistics project\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrnorm(100) |> hist()\n```\n\n::: {.cell-output-display}\n![](03-project_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n\n```{.r .cell-code}\nrnorm(100) |> mean()\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 0.08953036\n```\n\n\n:::\n:::",
+    "supporting": [
+      "03-project_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

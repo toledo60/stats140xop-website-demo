@@ -1,0 +1,12 @@
+---
+title: Project 3
+---
+
+
+Some comlpicated statistics project
+
+
+```{r}
+rnorm(100) |> hist()
+rnorm(100) |> mean()
+```

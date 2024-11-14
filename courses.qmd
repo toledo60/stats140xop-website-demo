@@ -1,0 +1,10 @@
+---
+title: Courses
+---
+
+
+relavent courses taken
+
+
+- Real Analysis 
+- Statistics 101
