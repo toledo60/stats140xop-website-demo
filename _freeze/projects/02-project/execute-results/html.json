@@ -1,8 +1,8 @@
 {
-  "hash": "a219ddad087cdc72d4fe6577238ccc44",
+  "hash": "166e69aeba6040bc2ea41a06660eed20",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: Project 2\n---\n\n\n\n\nSome comlpicated statistics project\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrnorm(100) |> hist()\n```\n\n::: {.cell-output-display}\n![](02-project_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::",
+    "markdown": "---\ntitle: Project 2\nsubtitle: Description for subtitle\nimage: images/R-logo.jpeg\n---\n\n\n\n\nSome complicated statistics project\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrnorm(100) |> hist()\n```\n\n::: {.cell-output-display}\n![](02-project_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::",
     "supporting": [
       "02-project_files"
     ],

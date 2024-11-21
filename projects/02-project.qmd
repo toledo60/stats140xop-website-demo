@@ -1,9 +1,11 @@
 ---
 title: Project 2
+subtitle: Description for subtitle
+image: images/R-logo.jpeg
 ---
 
 
-Some comlpicated statistics project
+Some complicated statistics project
 
 
 ```{r}

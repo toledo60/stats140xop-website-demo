@@ -1,5 +1,6 @@
 ---
 title: Project 1
+image: images/R-logo.jpeg
 ---
 
 

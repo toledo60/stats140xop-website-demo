@@ -1,32 +1,23 @@
 ---
 toc: false
 listing:
-  - id: project-listing
+  - id: project-listings
     contents: 
       - "/projects/*.qmd"
     sort: false
     sort-ui: false
     filter-ui: true
-    type: table
+    type: grid
     fields: 
       - title
+      - image
+      - subtitle
     categories: false 
 ---
 
-## Project 1
+Text above
 
-Here is my [project 1](/projects/01-project.qmd)
-
-## Project 2
-
-
-Here is my [project 2](/projects/02-project.qmd)
-
-
-
----
-
-:::project-listing
+:::project-listings
 :::
 
 

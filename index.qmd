@@ -11,14 +11,15 @@ about:
       url: "https://linkedin.com"
     - text: Email
       url: "mailto:toledo60@g.ucla.edu" 
-      icon: inbox-fill  
+      icon: inbox-fill
+    - text: RESUME
+      url: "cv.pdf"      
 toc: false
 ---
 
+
 Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana. 
 
-
-DOWNLOAD [CV](/cv.pdf)
 
 
 ## Education
@@ -34,3 +35,4 @@ B.A in Economics | Sept 2007 - June 2011
 Wengo Analytics | Head Data Scientist | April 2018 - present
 
 GeoScynce | Chief Analyst | Spet 2012 - April 2018
+

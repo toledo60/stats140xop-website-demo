@@ -1,9 +1,10 @@
 ---
 title: Project 3
+image: images/github.png
 ---
 
 
-Some comlpicated statistics project
+Some ccomplicated statistics project
 
 
 ```{r}

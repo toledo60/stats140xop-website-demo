@@ -71,20 +71,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-project-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-project-listings .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-project-listing'] = new List('listing-project-listing', options);
+    window['quarto-listings']['listing-project-listings'] = new List('listing-project-listings', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -147,7 +147,7 @@ window.Quarto = {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
@@ -158,7 +158,11 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./courses.html"> 
-<span class="menu-text">Cources</span></a>
+<span class="menu-text">Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -178,55 +182,68 @@ window.Quarto = {
 
 
 
-<section id="project-1" class="level2">
-<h2 class="anchored" data-anchor-id="project-1">Project 1</h2>
-<p>Here is my <a href="./projects/01-project.html">project 1</a></p>
-</section>
-<section id="project-2" class="level2">
-<h2 class="anchored" data-anchor-id="project-2">Project 2</h2>
-<p>Here is my <a href="./projects/02-project.html">project 2</a></p>
-<hr>
-<div class="project-listing">
+<p>Text above</p>
+<div class="project-listings">
 
 </div>
 
 
 
-</section>
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-project-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-project-listings">
 <div class="listing-actions-group">
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1731613042445" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Project 1" data-listing-filename-sort="01-project.qmd">
-<td>
-<a href="./projects/01-project.html" class="title listing-title">Project 1</a>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1731613231124" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Project 2" data-listing-filename-sort="02-project.qmd">
-<td>
-<a href="./projects/02-project.html" class="title listing-title">Project 2</a>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1731613915342" data-listing-reading-time-sort="1" data-listing-word-count-sort="8" data-listing-title-sort="Project 3" data-listing-filename-sort="03-project.qmd">
-<td>
-<a href="./projects/03-project.html" class="title listing-title">Project 3</a>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1732215564684" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="./projects/01-project.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/images/R-logo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Project 1
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732216741159" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="./projects/02-project.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/images/R-logo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Project 2
+</h5>
+<div class="card-subtitle listing-subtitle">
+Description for subtitle
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1732216500326" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="./projects/03-project.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/images/github.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Project 3
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

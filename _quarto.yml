@@ -4,13 +4,15 @@ project:
 website:
   title: "Jose Toledo"
   navbar:
-    right:
+    left:
       - href: index.qmd
         text: Home
       - href: projects.qmd
         text: Projects
       - href: courses.qmd
-        text: Cources
+        text: Courses
+      - href: research.qmd
+        text: Research
 
   page-footer:
     right: "&copy; 2024, Jose Toledo Luna"
